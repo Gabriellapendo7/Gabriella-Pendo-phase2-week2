@@ -45,7 +45,7 @@ function BotCard({ bot, clickAdd, clickDelete }) {
                         {bot.armor}
                     </span>
                     <span>
-                        <div className='ui center aligned segment basic'>
+                        <div className='ui-center-aligned-segment-basic'>
 
                             {showEnlistButton && (
                                 <button className='enlist-button' onClick={() => clickAdd(bot)}>
