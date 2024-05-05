@@ -52,7 +52,7 @@ function BotCard({ bot, clickAdd, clickDelete }) {
                                     Enlist
                                 </button>
                             )}<button
-                                className='ui mini blue button'
+                                className='delete-button'
                                 onClick={() => clickDelete(bot)}
                             >
                                 Delete
